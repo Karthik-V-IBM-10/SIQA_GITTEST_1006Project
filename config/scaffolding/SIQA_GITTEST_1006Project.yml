@@ -8,6 +8,10 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqa_gittest_1006.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SIQA_GITTEST_1006Project
+    version: "1.0"
 - serviceName: project.siqa_gittest_1006.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_GITTEST_1006Project
@@ -24,6 +28,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2061
+- serviceName: project.siqa_gittest_1006.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_GITTEST_1006Project
+    version: "1.0"
 - serviceName: project.siqa_gittest_1006.integrations:deepclonetest
   packages:
   - name: SIQA_GITTEST_1006Project
